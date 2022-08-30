@@ -7,7 +7,8 @@
 #     ├── yolov5s.pt  ← downloads here
 #     ├── yolov5m.pt
 #     └── ...
-
+export HTTP_PROXY='http://10.10.0.1:7890'
+export HTTPS_PROXY='http://10.10.0.1:7890'
 python - <<EOF
 from utils.downloads import attempt_download
 

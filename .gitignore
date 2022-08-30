@@ -1,0 +1,11 @@
+runs
+__pycache__
+*.so
+dataset
+wandb
+loggers
+nms_rotated
+*.pt
+build
+polyiou.py
+polyiou_wrap.cxx
