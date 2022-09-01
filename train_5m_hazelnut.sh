@@ -1,3 +1,6 @@
+source activate yolov5_obb
+echo Current env : $CONDA_DEFAULT_ENV
+echo Current env path : $CONDA_PREFIX
 python train.py \
   --weights 'yolov5m.pt' \
   --data 'dataset/hazelnut/data.yaml' \
